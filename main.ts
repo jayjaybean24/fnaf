@@ -4825,6 +4825,11 @@ forever(function () {
     }
 })
 forever(function () {
+    if (an1_move == 5 || an2_move == 5) {
+        statusbar.value = 0
+    }
+})
+forever(function () {
     if (time == 21) {
         animation.runImageAnimation(
         mySprite2,
